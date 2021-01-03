@@ -1,0 +1,23 @@
+| Keys   | Describe                |
+|--------+-------------------------|
+| A-a    | найти файл              |
+| S-F6   | переименование          |
+| N-k    | settings                |
+| F6     | перемещение             |
+| S-E    | new line                |
+| N-P    | import optimization     |
+| N-e    | выравнивание            |
+| N-i    | закрыть                 |
+| C-f    | change-look             |
+| C-b    | turn to file            |
+| C-m    | comment                 |
+| A-E    | быстры импорт           |
+| S-T    | убрать табуляцию        |
+| C-z/Z  | свернуть/развернуть     |
+| C-v/V  | свернуть/развернуть все |
+| A-,    | next Emmet              |
+| A-'    | prev Emmet              |
+| N-y    | new file                |
+| N-x    | new directory           |
+| n (vi) | new line * 3            |
+| f (vi) | space jump              |

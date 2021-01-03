@@ -1,0 +1,34 @@
+inoremap uh <Esc>
+
+
+" Press `f` to activate AceJump
+map f :action AceAction<CR>
+" Press `F` to activate Target Mode
+map F :action AceTargetAction<CR>
+
+map n <Esc>o<Esc>o<Esc>5xi
+
+
+noremap dtl dt$
+noremap dtr dt0
+
+noremap i a
+
+noremap o l
+noremap u k
+noremap e j
+noremap a h 
+
+noremap k u
+
+noremap l $
+noremap r 0 
+noremap R o
+noremap L O
+
+map ; :action CommentByLineComment<CR>
+
+map gt :source ~/.ideavimrc
+
+
+noremap " heytheworld  
