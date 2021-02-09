@@ -1,34 +1,40 @@
-inoremap uh <Esc>
-
-
 " Press `f` to activate AceJump
-map f :action AceAction<CR>
+map h :action AceAction<CR>
 " Press `F` to activate Target Mode
-map F :action AceTargetAction<CR>
+map H :action AceLineAction<CR>
 
-map n <Esc>o<Esc>o<Esc>5xi
+map s <Esc>o<Esc>o<Esc>5xi
 
 
 noremap dtl dt$
 noremap dtr dt0
 
-noremap i a
+noremap I a
 
 noremap o l
 noremap u k
 noremap e j
 noremap a h 
 
+noremap O $
+noremap A 0 
+noremap U gg
+noremap E G
+
 noremap k u
 
-noremap l $
-noremap r 0 
-noremap R o
-noremap L O
+noremap w r
+noremap W R
+
+noremap R I
+noremap L A
+noremap r o
+noremap l O
+
+
 
 map ; :action CommentByLineComment<CR>
 
 map gt :source ~/.ideavimrc
 
-
-noremap " heytheworld  
+map gg @d
